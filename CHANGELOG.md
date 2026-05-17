@@ -19,6 +19,11 @@
   ([#97](https://github.com/open-telemetry/semantic-conventions-genai/pull/97))
 - Add `gen_ai.workflow.duration` metric to track duration of a workflow.
   ([#126](https://github.com/open-telemetry/semantic-conventions-genai/pull/126))
+- Add `gen_ai.agent.invocation.duration` metric to track the end-to-end duration
+  of a single agent invocation, and `gen_ai.tool.execution.duration` metric to
+  track the duration of a single tool execution. Add the `gen_ai.tool.version`
+  attribute used as a dimension on the tool execution metric.
+  ([#201](https://github.com/open-telemetry/semantic-conventions-genai/pull/201))
 
 ### 🧰 Bug fixes 🧰
 
