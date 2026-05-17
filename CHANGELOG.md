@@ -19,6 +19,9 @@
   ([#97](https://github.com/open-telemetry/semantic-conventions-genai/pull/97))
 - Add `gen_ai.workflow.duration` metric to track duration of a workflow.
   ([#126](https://github.com/open-telemetry/semantic-conventions-genai/pull/126))
+- Add `gen_ai.agent.request.size` and `gen_ai.agent.response.size` metrics to
+  track the byte size of GenAI agent input and output payloads.
+  ([#202](https://github.com/open-telemetry/semantic-conventions-genai/pull/202))
 
 ### 🧰 Bug fixes 🧰
 
