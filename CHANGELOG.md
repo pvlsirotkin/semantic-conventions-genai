@@ -19,6 +19,9 @@
   ([#97](https://github.com/open-telemetry/semantic-conventions-genai/pull/97))
 - Add `gen_ai.workflow.duration` metric to track duration of a workflow.
   ([#126](https://github.com/open-telemetry/semantic-conventions-genai/pull/126))
+- Add `gen_ai.workflow.steps` metric to track the number of discrete steps
+  observed within a single GenAI workflow.
+  ([#203](https://github.com/open-telemetry/semantic-conventions-genai/pull/203))
 
 ### 🧰 Bug fixes 🧰
 
